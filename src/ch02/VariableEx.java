@@ -17,7 +17,30 @@ public class VariableEx {
 	
 	public static void main(String[] args) {
 
-
+		int number = 1;
+		int Number = 2;
+		
+		System.out.println(number + " : " + Number);
+		
+//		--------------
+		
+		int a;
+		int b = 1;
+		
+		int c = 0;
+		
+//		c = a + b; 
+		
+//		변수는 선언된 블럭 내에서만 사용 가능하다.
+		int d= 1;
+		
+		if(d == 1) {
+			int aaa = 10;
+			int bbb = aaa + d;
+			System.out.println(bbb);
+		} else {
+			
+		}
 		
 		
 	}
