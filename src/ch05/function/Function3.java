@@ -24,5 +24,7 @@ public class Function3 {
 		return result;
 	}
 	
+	
+	
 
 }
