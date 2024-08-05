@@ -16,7 +16,8 @@ public class SuvEx {
 		int result = suv.sum(6, 2);
 		System.out.println(result);
 		
-		
+		String position = suv.sum2("과장");
+		System.out.println(position);
 	}
 
 }

@@ -25,7 +25,31 @@ public class Suv {
 		return result;
 	}
 
-	
+	String sum2(String position) {
+		switch(position) {
+		case "사장": {
+			return "100억";
+		}
+		case "부장": {
+			return "10억";
+		}
+		case "과장": {
+			return "1억";
+		}
+		case "대리": {
+			return "9000만원";
+		}
+		case "사원": {
+			return "8000만원";
+		}
+		case "나": {
+			return "5000만원";
+		}
+		default: 
+			return position;
+
+		}
+	}
 	
 	
 	
