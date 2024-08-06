@@ -11,6 +11,10 @@ public class Car {
 		
 	}
 	
+	Car(String color) {
+		this.color = color;
+	}
+	
 	Car(int engine, String name, String color, String company) {
 		this.engine = engine;
 		this.name = name;
