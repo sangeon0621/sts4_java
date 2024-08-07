@@ -14,6 +14,12 @@ public class MobileCellphone {
 		
 		dmbcellphone.powerOn();
 		
+		Mobile mobile = new Mobile();
+		
+		mobile.powerOff();
+		mobile.changeChannelDmb(1);
+		mobile.aaa();
+		
 		
 	}
 

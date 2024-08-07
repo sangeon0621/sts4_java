@@ -22,6 +22,10 @@ public class DmbCellphone extends Cellphone {
 	void turnOffDmb(int a) {
 		
 	}
+	@Override
+	void powerOn() {
+		System.out.println("컴퓨터 전원을 킵니다.");
+	}
 	
 	
 	
