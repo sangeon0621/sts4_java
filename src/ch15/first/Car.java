@@ -10,5 +10,21 @@ public class Car {
 		this.cc = cc;
 	}
 	
+	public String getName() {
+		return name;
+	}
+	
+	public void setName() {
+		this.name = name;
+	}
+	
+	public int getCc() {
+		return cc;
+	}
+	
+	public void setCc() {
+		this.cc = cc;
+	}
+	
 	
 }
